@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:#2c2929;
+}
+
+#brand{
+    max-width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fill 0.5s ease forwards 8s;
+}
+
+#brand path:nth-child(1){
+    stroke-dasharray: 222.71865844726562;
+    stroke-dashoffset: 222.71865844726562;
+    animation: line-anim 3s ease forwards 4.3s;
+}
+#brand path:nth-child(2){
+    stroke-dasharray:527.8763427734375 ;
+    stroke-dashoffset: 527.8763427734375;
+    animation: line-anim  3s ease forwards ;
+
+}
+#brand path:nth-child(3){
+    stroke-dasharray: 583.3416137695312;
+    stroke-dashoffset:583.3416137695312 ;
+    animation: line-anim 3s ease forwards 0.3s;
+
+}
+#brand path:nth-child(4){
+    stroke-dasharray:480.25543212890625 ;
+    stroke-dashoffset:480.25543212890625 ;
+    animation: line-anim 3s ease forwards 0.6s ;
+
+}
+#brand path:nth-child(5){
+    stroke-dasharray:223.89352416992188 ;
+    stroke-dashoffset:223.89352416992188 ;
+    animation: line-anim 3s ease forwards 0.9s ;
+
+}
+#brand path:nth-child(6){
+    stroke-dasharray:424.37762451171875 ;
+    stroke-dashoffset: 424.37762451171875;
+    animation: line-anim 3s ease forwards 1.2s;
+
+}
+#brand path:nth-child(7){
+    stroke-dasharray:527.8757934570312 ;
+    stroke-dashoffset:527.8757934570312 ;
+    animation: line-anim 3s ease forwards 1.5s;
+}
+#brand path:nth-child(8){
+    stroke-dasharray:349.76861572265625;
+    stroke-dashoffset:349.76861572265625 ;
+    animation: line-anim 3s ease forwards 1.8s ;
+}
+#brand path:nth-child(9){
+    stroke-dasharray:348.38677978515625;
+    stroke-dashoffset:348.38677978515625 ;
+    animation: line-anim 3s ease forwards 4.3s ;
+}
+#brand path:nth-child(10){
+    stroke-dasharray:222.7184600830078 ;
+    stroke-dashoffset:222.7184600830078 ;
+    animation: line-anim 3s ease forwards 4.3s ;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: #e5e5e5;
+    }
+}
+
